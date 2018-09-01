@@ -1,4 +1,4 @@
-(ns hxgm30.graphdb.plugin.orientdb.api.db
+(ns hxgm30.db.plugin.orientdb.api.db
   "This is the implementation that's intended to be used with OrientDB v 2.2.x.
 
   Resources for this implementation:
@@ -7,7 +7,7 @@
   * https://orientdb.com/javadoc/2.2.x/index.html?com/tinkerpop/blueprints/impls/orient/OrientGraphNoTx.html
   * https://orientdb.com/javadoc/2.2.x/index.html?com/tinkerpop/blueprints/impls/orient/OrientGraphTx.html"
   (:require
-    [hxgm30.graphdb.util :as util])
+    [hxgm30.common.util :as util])
   (:import
     (com.tinkerpop.blueprints.impls.orient OrientGraph
                                            OrientGraphNoTx))

@@ -1,8 +1,8 @@
-(ns hxgm30.graphdb.plugin.orientdb.component
+(ns hxgm30.db.plugin.orientdb.component
   (:require
-    [hxgm30.graphdb.components.config :as config]
-    [hxgm30.graphdb.plugin.orientdb.api.db :as db]
-    [hxgm30.graphdb.plugin.orientdb.api.factory :as factory]
+    [hxgm30.db.components.config :as config]
+    [hxgm30.db.plugin.orientdb.api.db :as db]
+    [hxgm30.db.plugin.orientdb.api.factory :as factory]
     [com.stuartsierra.component :as component]
     [taoensso.timbre :as log])
   (:import
